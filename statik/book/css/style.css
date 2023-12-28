@@ -1,0 +1,47 @@
+body {    background-color: #E5FF9B;}
+header {    background-color: #3B744B;    padding-top: 80px;}
+footer {    background-color: #3B744B;    padding-top: 90px;    margin-top: 20px;}
+
+.book {background-color: #3B744B;}
+
+.title {
+    padding: 20px;
+}
+
+
+.forwhom {
+    border: 3px solid #3B744B;
+}
+
+.i {
+    font-size: 25px;
+    color: #E5FF9B;
+}
+
+.b1 {
+    color: #E5FF9B;
+    border-color: #E5FF9B;
+}
+
+.b1:hover {
+    background-color: #E5FF9B;
+    border-color: #E5FF9B;
+}
+
+.i {
+    font-size: 25px;
+    color: red;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container img {
+  max-width: 50%;
+  height: auto;
+}
+
+ 

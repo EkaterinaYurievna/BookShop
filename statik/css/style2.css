@@ -1,0 +1,86 @@
+body{background-color: #E5FF9B;}
+header{background-color: #3B744B; }
+footer{background-color: #3B744B; 
+margin-top:50px;}
+ 
+
+
+  /* Изменение размера иконки при наведении */
+  .icon:hover { transform: scale(1.2);  }
+
+.b1{color: #E5FF9B; border-color: #E5FF9B; margin-left: 30px;}
+.b1:hover{background-color: #E5FF9B; border-color: #E5FF9B; color:#000000;}
+
+
+.b2{color: #3B744B; border-color: #3B744B; margin-left: 30px;}
+.b2:hover{background-color: #3B744B; border-color: #3B744B; color:#000000;}
+.b2:focus {background-color: #3B744B; border-color: #3B744B; color:#000000;}
+.b2:active {background-color: #3B744B; border-color: #3B744B; color:#000000;}
+
+
+
+
+.centered {	margin-left: 30px; 
+  text-decoration: none; color: #000000;  display: inline-block;}
+
+
+.container {background-color: #E5FF9B;}
+
+
+
+
+a:hover {color:#3B744B;}
+a {text-align: center; text-decoration: none; color: #000000;  display: inline-block;}
+
+
+
+/*кнопка нравится в каталоге*/
+.ilove:hover {color:red;}
+.ilove:focus {color:red;}
+.ilove {font-size: 20px; text-align: center; text-decoration: none; color: #000000;  display: inline-block;}
+/****************************/
+
+
+
+
+
+
+
+
+
+
+
+
+img:hover{-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+img{-webkit-filter: grayscale(0%); filter: grayscale(0%); margin-bottom: 5px;
+max-width: 60%; height: auto;}
+
+
+
+/*
+.heart-icon {font-size: 23px; color: #000000; margin-right: 10px;}
+.heart-icon:hover {color: red;}
+ */
+
+
+
+
+
+
+
+
+/* Боковая панель */
+/* Изменяем цвет активного заголовка */
+.accordion-button:not(.collapsed) {
+	border-color: #3B744B; /*цвет фона */
+    background-color: #E5FF9B; /*цвет фона */
+    color: #000000; /*цвет текста */
+}
+/* Изменяем цвет неактивного заголовка */
+.accordion-button.collapsed {
+    background-color: #E5FF9B; /*цвет фона */
+    color: #000000; /*цвет текста */
+}
+.accordion-body {
+    background-color: #E5FF9B; /* Задайте желаемый цвет фона */
+}
